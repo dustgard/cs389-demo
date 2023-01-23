@@ -16,6 +16,13 @@ public class LoginForm {
     @Size(min = 8, message = "Password must be at least 8 characters long")
     private String password;
 
+    public LoginForm() {
+    }
+
+    public LoginForm(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
     @PostMapping("/login")
     public String loginPost(@Valid @ModelAttribute LoginForm loginForm, BindingResult result) {
         System.out.println("User '" + loginForm.getUsername() + "' attempted login");
