@@ -295,3 +295,27 @@ validateUser: user 'cs389user' attempted login
 2023-01-23 15:48:25,890-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-8 
 validateUser: user 'cs389user' attempted login
 
+2023-01-23 15:52:19,642-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-1 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:54:24,859-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-4 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:54:32,855-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-9 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:54:33,767-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-6 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:54:34,296-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-7 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:54:34,473-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-8 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:54:34,655-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-10 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:54:43,159-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-2 
+validateUser: user 'cs389user' attempted login
+
