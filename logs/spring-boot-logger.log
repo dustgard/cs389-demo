@@ -1,0 +1,297 @@
+2023-01-23 14:12:56,417-[INFO]-from org.hibernate.validator.internal.util.Version in background-preinit 
+HV000001: Hibernate Validator 8.0.0.Final
+
+2023-01-23 14:12:56,444-[INFO]-from edu.carroll.cs389.Cs389ApplicationTests in Test worker 
+Starting Cs389ApplicationTests using Java 17.0.6 with PID 19212 (started by dusti in C:\Users\dusti\Documents\School Spring 2023\CS 389\cs389-demo)
+
+2023-01-23 14:12:56,446-[INFO]-from edu.carroll.cs389.Cs389ApplicationTests in Test worker 
+No active profile set, falling back to 1 default profile: "default"
+
+2023-01-23 14:12:57,084-[INFO]-from org.springframework.data.repository.config.RepositoryConfigurationDelegate in Test worker 
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+
+2023-01-23 14:12:57,138-[INFO]-from org.springframework.data.repository.config.RepositoryConfigurationDelegate in Test worker 
+Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+
+2023-01-23 14:12:57,552-[INFO]-from org.hibernate.jpa.internal.util.LogHelper in Test worker 
+HHH000204: Processing PersistenceUnitInfo [name: default]
+
+2023-01-23 14:12:57,609-[INFO]-from org.hibernate.Version in Test worker 
+HHH000412: Hibernate ORM core version 6.1.6.Final
+
+2023-01-23 14:12:57,808-[WARN]-from org.hibernate.orm.deprecation in Test worker 
+HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+
+2023-01-23 14:12:57,948-[INFO]-from com.zaxxer.hikari.HikariDataSource in Test worker 
+HikariPool-1 - Starting...
+
+2023-01-23 14:12:58,168-[INFO]-from com.zaxxer.hikari.pool.HikariPool in Test worker 
+HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./demoDb user=H2
+
+2023-01-23 14:12:58,169-[INFO]-from com.zaxxer.hikari.HikariDataSource in Test worker 
+HikariPool-1 - Start completed.
+
+2023-01-23 14:12:58,188-[INFO]-from SQL dialect in Test worker 
+HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+
+2023-01-23 14:12:58,878-[INFO]-from org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator in Test worker 
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+2023-01-23 14:12:58,887-[INFO]-from org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean in Test worker 
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2023-01-23 14:12:59,466-[WARN]-from org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration in Test worker 
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2023-01-23 14:12:59,628-[INFO]-from org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping in Test worker 
+Adding welcome page template: index
+
+2023-01-23 14:12:59,809-[INFO]-from edu.carroll.cs389.Cs389ApplicationTests in Test worker 
+Started Cs389ApplicationTests in 3.654 seconds (process running for 4.63)
+
+2023-01-23 14:12:59,969-[INFO]-from org.springframework.test.context.support.AnnotationConfigContextLoaderUtils in Test worker 
+Could not detect default configuration classes for test class [edu.carroll.cs389.web.controller.IndexControllerTest]: IndexControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+2023-01-23 14:12:59,986-[INFO]-from org.springframework.boot.test.context.SpringBootTestContextBootstrapper in Test worker 
+Found @SpringBootConfiguration edu.carroll.cs389.Cs389Application for test class edu.carroll.cs389.web.controller.IndexControllerTest
+
+2023-01-23 14:13:00,010-[INFO]-from edu.carroll.cs389.web.controller.IndexControllerTest in Test worker 
+Starting IndexControllerTest using Java 17.0.6 with PID 19212 (started by dusti in C:\Users\dusti\Documents\School Spring 2023\CS 389\cs389-demo)
+
+2023-01-23 14:13:00,010-[INFO]-from edu.carroll.cs389.web.controller.IndexControllerTest in Test worker 
+No active profile set, falling back to 1 default profile: "default"
+
+2023-01-23 14:13:00,141-[INFO]-from org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping in Test worker 
+Adding welcome page template: index
+
+2023-01-23 14:13:00,173-[INFO]-from org.springframework.boot.test.mock.web.SpringBootMockServletContext in Test worker 
+Initializing Spring TestDispatcherServlet ''
+
+2023-01-23 14:13:00,174-[INFO]-from org.springframework.test.web.servlet.TestDispatcherServlet in Test worker 
+Initializing Servlet ''
+
+2023-01-23 14:13:00,177-[INFO]-from org.springframework.test.web.servlet.TestDispatcherServlet in Test worker 
+Completed initialization in 1 ms
+
+2023-01-23 14:13:00,181-[INFO]-from edu.carroll.cs389.web.controller.IndexControllerTest in Test worker 
+Started IndexControllerTest in 0.192 seconds (process running for 5.003)
+
+2023-01-23 14:13:00,427-[INFO]-from org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean in SpringApplicationShutdownHook 
+Closing JPA EntityManagerFactory for persistence unit 'default'
+
+2023-01-23 14:13:00,429-[INFO]-from com.zaxxer.hikari.HikariDataSource in SpringApplicationShutdownHook 
+HikariPool-1 - Shutdown initiated...
+
+2023-01-23 14:13:00,432-[INFO]-from com.zaxxer.hikari.HikariDataSource in SpringApplicationShutdownHook 
+HikariPool-1 - Shutdown completed.
+
+2023-01-23 14:13:24,293-[INFO]-from org.hibernate.validator.internal.util.Version in background-preinit 
+HV000001: Hibernate Validator 8.0.0.Final
+
+2023-01-23 14:13:24,330-[INFO]-from edu.carroll.cs389.Cs389Application in restartedMain 
+Starting Cs389Application using Java 17.0.6 with PID 7680 (C:\Users\dusti\Documents\School Spring 2023\CS 389\cs389-demo\build\classes\java\main started by dusti in C:\Users\dusti\Documents\School Spring 2023\CS 389\cs389-demo)
+
+2023-01-23 14:13:24,331-[INFO]-from edu.carroll.cs389.Cs389Application in restartedMain 
+No active profile set, falling back to 1 default profile: "default"
+
+2023-01-23 14:13:24,362-[INFO]-from org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor in restartedMain 
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2023-01-23 14:13:24,362-[INFO]-from org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor in restartedMain 
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2023-01-23 14:13:24,805-[INFO]-from org.springframework.data.repository.config.RepositoryConfigurationDelegate in restartedMain 
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+
+2023-01-23 14:13:24,852-[INFO]-from org.springframework.data.repository.config.RepositoryConfigurationDelegate in restartedMain 
+Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+
+2023-01-23 14:13:25,296-[INFO]-from org.springframework.boot.web.embedded.tomcat.TomcatWebServer in restartedMain 
+Tomcat initialized with port(s): 8080 (http)
+
+2023-01-23 14:13:25,307-[INFO]-from org.apache.coyote.http11.Http11NioProtocol in restartedMain 
+Initializing ProtocolHandler ["http-nio-8080"]
+
+2023-01-23 14:13:25,308-[INFO]-from org.apache.catalina.core.StandardService in restartedMain 
+Starting service [Tomcat]
+
+2023-01-23 14:13:25,308-[INFO]-from org.apache.catalina.core.StandardEngine in restartedMain 
+Starting Servlet engine: [Apache Tomcat/10.1.4]
+
+2023-01-23 14:13:25,360-[INFO]-from org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] in restartedMain 
+Initializing Spring embedded WebApplicationContext
+
+2023-01-23 14:13:25,362-[INFO]-from org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext in restartedMain 
+Root WebApplicationContext: initialization completed in 999 ms
+
+2023-01-23 14:13:25,381-[INFO]-from com.zaxxer.hikari.HikariDataSource in restartedMain 
+HikariPool-1 - Starting...
+
+2023-01-23 14:13:25,516-[INFO]-from com.zaxxer.hikari.pool.HikariPool in restartedMain 
+HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./demoDb user=H2
+
+2023-01-23 14:13:25,518-[INFO]-from com.zaxxer.hikari.HikariDataSource in restartedMain 
+HikariPool-1 - Start completed.
+
+2023-01-23 14:13:25,524-[INFO]-from org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration in restartedMain 
+H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./demoDb'
+
+2023-01-23 14:13:25,604-[INFO]-from org.hibernate.jpa.internal.util.LogHelper in restartedMain 
+HHH000204: Processing PersistenceUnitInfo [name: default]
+
+2023-01-23 14:13:25,636-[INFO]-from org.hibernate.Version in restartedMain 
+HHH000412: Hibernate ORM core version 6.1.6.Final
+
+2023-01-23 14:13:25,752-[WARN]-from org.hibernate.orm.deprecation in restartedMain 
+HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+
+2023-01-23 14:13:25,832-[INFO]-from SQL dialect in restartedMain 
+HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+
+2023-01-23 14:13:26,317-[INFO]-from org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator in restartedMain 
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+2023-01-23 14:13:26,324-[INFO]-from org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean in restartedMain 
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2023-01-23 14:13:26,632-[WARN]-from org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration in restartedMain 
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2023-01-23 14:13:26,734-[INFO]-from org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping in restartedMain 
+Adding welcome page template: index
+
+2023-01-23 14:13:26,863-[INFO]-from org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer in restartedMain 
+LiveReload server is running on port 35729
+
+2023-01-23 14:13:26,870-[INFO]-from org.apache.coyote.http11.Http11NioProtocol in restartedMain 
+Starting ProtocolHandler ["http-nio-8080"]
+
+2023-01-23 14:13:26,886-[INFO]-from org.springframework.boot.web.embedded.tomcat.TomcatWebServer in restartedMain 
+Tomcat started on port(s): 8080 (http) with context path ''
+
+2023-01-23 14:13:26,892-[INFO]-from edu.carroll.cs389.Cs389Application in restartedMain 
+Started Cs389Application in 2.915 seconds (process running for 3.213)
+
+2023-01-23 15:28:19,261-[INFO]-from org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] in http-nio-8080-exec-1 
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-01-23 15:28:19,262-[INFO]-from org.springframework.web.servlet.DispatcherServlet in http-nio-8080-exec-1 
+Initializing Servlet 'dispatcherServlet'
+
+2023-01-23 15:28:19,264-[INFO]-from org.springframework.web.servlet.DispatcherServlet in http-nio-8080-exec-1 
+Completed initialization in 1 ms
+
+2023-01-23 15:28:36,611-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-2 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:28:45,509-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-5 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:47:53,733-[INFO]-from org.hibernate.validator.internal.util.Version in background-preinit 
+HV000001: Hibernate Validator 8.0.0.Final
+
+2023-01-23 15:47:53,765-[INFO]-from edu.carroll.cs389.Cs389Application in restartedMain 
+Starting Cs389Application using Java 17.0.6 with PID 1792 (C:\Users\dusti\Documents\School Spring 2023\CS 389\cs389-demo\build\classes\java\main started by dusti in C:\Users\dusti\Documents\School Spring 2023\CS 389\cs389-demo)
+
+2023-01-23 15:47:53,766-[INFO]-from edu.carroll.cs389.Cs389Application in restartedMain 
+No active profile set, falling back to 1 default profile: "default"
+
+2023-01-23 15:47:53,798-[INFO]-from org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor in restartedMain 
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2023-01-23 15:47:53,798-[INFO]-from org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor in restartedMain 
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2023-01-23 15:47:54,197-[INFO]-from org.springframework.data.repository.config.RepositoryConfigurationDelegate in restartedMain 
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+
+2023-01-23 15:47:54,241-[INFO]-from org.springframework.data.repository.config.RepositoryConfigurationDelegate in restartedMain 
+Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+
+2023-01-23 15:47:54,666-[INFO]-from org.springframework.boot.web.embedded.tomcat.TomcatWebServer in restartedMain 
+Tomcat initialized with port(s): 8080 (http)
+
+2023-01-23 15:47:54,673-[INFO]-from org.apache.coyote.http11.Http11NioProtocol in restartedMain 
+Initializing ProtocolHandler ["http-nio-8080"]
+
+2023-01-23 15:47:54,673-[INFO]-from org.apache.catalina.core.StandardService in restartedMain 
+Starting service [Tomcat]
+
+2023-01-23 15:47:54,673-[INFO]-from org.apache.catalina.core.StandardEngine in restartedMain 
+Starting Servlet engine: [Apache Tomcat/10.1.4]
+
+2023-01-23 15:47:54,714-[INFO]-from org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] in restartedMain 
+Initializing Spring embedded WebApplicationContext
+
+2023-01-23 15:47:54,715-[INFO]-from org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext in restartedMain 
+Root WebApplicationContext: initialization completed in 916 ms
+
+2023-01-23 15:47:54,734-[INFO]-from com.zaxxer.hikari.HikariDataSource in restartedMain 
+HikariPool-1 - Starting...
+
+2023-01-23 15:47:54,868-[INFO]-from com.zaxxer.hikari.pool.HikariPool in restartedMain 
+HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./demoDb user=H2
+
+2023-01-23 15:47:54,869-[INFO]-from com.zaxxer.hikari.HikariDataSource in restartedMain 
+HikariPool-1 - Start completed.
+
+2023-01-23 15:47:54,876-[INFO]-from org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration in restartedMain 
+H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./demoDb'
+
+2023-01-23 15:47:54,945-[INFO]-from org.hibernate.jpa.internal.util.LogHelper in restartedMain 
+HHH000204: Processing PersistenceUnitInfo [name: default]
+
+2023-01-23 15:47:54,978-[INFO]-from org.hibernate.Version in restartedMain 
+HHH000412: Hibernate ORM core version 6.1.6.Final
+
+2023-01-23 15:47:55,097-[WARN]-from org.hibernate.orm.deprecation in restartedMain 
+HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+
+2023-01-23 15:47:55,176-[INFO]-from SQL dialect in restartedMain 
+HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+
+2023-01-23 15:47:55,669-[INFO]-from org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator in restartedMain 
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+2023-01-23 15:47:55,674-[INFO]-from org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean in restartedMain 
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+2023-01-23 15:47:55,980-[WARN]-from org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration in restartedMain 
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+2023-01-23 15:47:56,072-[INFO]-from org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping in restartedMain 
+Adding welcome page template: index
+
+2023-01-23 15:47:56,193-[INFO]-from org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer in restartedMain 
+LiveReload server is running on port 35729
+
+2023-01-23 15:47:56,201-[INFO]-from org.apache.coyote.http11.Http11NioProtocol in restartedMain 
+Starting ProtocolHandler ["http-nio-8080"]
+
+2023-01-23 15:47:56,213-[INFO]-from org.springframework.boot.web.embedded.tomcat.TomcatWebServer in restartedMain 
+Tomcat started on port(s): 8080 (http) with context path ''
+
+2023-01-23 15:47:56,221-[INFO]-from edu.carroll.cs389.Cs389Application in restartedMain 
+Started Cs389Application in 2.819 seconds (process running for 3.106)
+
+2023-01-23 15:48:03,812-[INFO]-from org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] in http-nio-8080-exec-1 
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-01-23 15:48:03,812-[INFO]-from org.springframework.web.servlet.DispatcherServlet in http-nio-8080-exec-1 
+Initializing Servlet 'dispatcherServlet'
+
+2023-01-23 15:48:03,812-[INFO]-from org.springframework.web.servlet.DispatcherServlet in http-nio-8080-exec-1 
+Completed initialization in 0 ms
+
+2023-01-23 15:48:11,740-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-9 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:48:14,291-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-6 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:48:15,156-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-7 
+validateUser: user 'cs389user' attempted login
+
+2023-01-23 15:48:25,890-[INFO]-from edu.carroll.cs389.service.LoginServiceImpl in http-nio-8080-exec-8 
+validateUser: user 'cs389user' attempted login
+
